@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase Google Auth</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- 引入 SweetAlert2 的 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.6/dist/sweetalert2.min.css" rel="stylesheet">
+
+  <!-- 引入 SweetAlert2 的 JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.6/dist/sweetalert2.all.min.js"></script>
+</head>
+<body>
+  <div id="auth-container">
+    <h1>會員系統</h1>
+    <button id="register-button">註冊</button>
+    <button id="login-button">登入</button>
+    <div id="user-info" style="display:none;">
+      <img id="user-photo" alt="User Photo">
+      <p id="user-name"></p>
+      <p id="user-email"></p>
+      <p id="last-login"></p>
+      
+
+    </div>
+  </div>
+  <script type="module" src="scripts.js"></script>
+</body>
+</html>
